@@ -68,7 +68,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 
 To find the most demanded skills for the top 3 most popular data roles, I filtered out those positions by which ones were the most popular, and got the top 5 skills for yhese top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on my target role.
 
-View my notebook with detailed steps here: [2_Skills_Demand.ipynb](3_Project\2_Skills_Demand.ipynb)
+View my notebook with detailed steps here: [2_Skills_Demand.ipynb](3_Project/2_Skills_Demand.ipynb)
 
 ### Visualize Data
 
@@ -83,7 +83,7 @@ plt.show()
 ```
 
 ### Results
-![Visualization of Top Skills](3_Project\Images\skill_demand_all_data_roles.png)
+![Visualization of Top Skills](3_Project/Images/skill_demand_all_data_roles.png)
 *Bar chart visualizing the likelihood of skills appearing in the UAE job postings in 2023.*
 
 ### Insights
@@ -96,7 +96,7 @@ plt.show()
 
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: [3_Skills_Trend](3_Project\3_Skills_Trend.ipynb).
+View my notebook with detailed steps here: [3_Skills_Trend](3_Project/3_Skills_Trend.ipynb).
 
 ### Visualize Data
 
@@ -114,7 +114,7 @@ plt.show()
 ```
 ### Results
 
-![Trending Top Skills for Data Analysts in the UAE](3_Project\Images\skill_trend_DA.png)
+![Trending Top Skills for Data Analysts in the UAE](3_Project/Images/skill_trend_DA.png)
 *Line chart visualizing the trending top skills for data analysts in the UAE in 2023.*
 
 ### Insights 
@@ -126,7 +126,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I filtered for jobs in the UAE and looked at their median salary. But first, I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs were paid the most. 
 
-View my notebook with detailed steps here: [4_Salary_Analysis](3_Project\4_Salary_Analysis.ipynb).
+View my notebook with detailed steps here: [4_Salary_Analysis](3_Project/4_Salary_Analysis.ipynb).
 
 ### Visualize Data
 ```python
@@ -138,7 +138,7 @@ plt.show()
 
 ### Results
 
-![Salary Distributions of Data Jobs in the UAE](3_Project\Images\salary_distributions.png)
+![Salary Distributions of Data Jobs in the UAE](3_Project/Images/salary_distributions.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Insights
@@ -160,7 +160,7 @@ sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1], hue='
 ```
 
 ### Results
-![Highest Paid and Most In-Demand Skills for Data Analysts in the UAE](3_Project\Images\highes_paid_and_most_demanded_skills_DA.png)
+![Highest Paid and Most In-Demand Skills for Data Analysts in the UAE](3_Project/Images/highes_paid_and_most_demanded_skills_DA.png)
 *Two separate bar graphs visualizing the highest-paid and most in-demand skills for data analysts in the UAE.*
 
 ### Insights
@@ -173,7 +173,7 @@ sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1], hue='
 
 To identify the most optimal skills to learn (the ones that are the highest paid and highest in demand), I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
 
-View my notebook with detailed steps here: [5_Optimal_Skills](3_Project\5_Optimal_Skills.ipynb).
+View my notebook with detailed steps here: [5_Optimal_Skills](3_Project/5_Optimal_Skills.ipynb).
 
 ### Visualize Data
 ```python
@@ -209,7 +209,7 @@ plt.show()
 ```
 ### Results
 
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](3_Project\Images\optimal_skills.png)  
+![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](3_Project/Images/optimal_skills.png)  
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the UAE with color labels for technology.*
 
 ### Insights
