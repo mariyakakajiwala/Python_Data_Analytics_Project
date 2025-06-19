@@ -138,7 +138,7 @@ plt.show()
 
 ### Results
 
-![Salary Distributions of Data Jobs in the UAE]
+![Salary Distributions of Data Jobs in the UAE](3_Project\Images\salary_distributions.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Insights
@@ -247,6 +247,4 @@ This project was not without its challenges, but it provided good learning oppor
 
 # Conclusion
 
-This exploration into the data analyst job market was incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insights I gained enhanced my understanding and also provided actionable guidance which helped advance my career in data analytics. As the market continues to change, ongoing analysis will be essential to stay ahead in data analytics. This project wass a good foundation for future explorations and underscored the importance of continuous learning and adaptation in the data field.
-
-[def]: 3_Project\Images\salary_distributions.png
+This exploration into the data analyst job market was incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insights I gained enhanced my understanding and also provided actionable guidance which helped advance my career in data analytics. As the market continues to change, ongoing analysis will be essential to stay ahead in data analytics. This project was a good foundation for future explorations and underscored the importance of continuous learning and adaptation in the data field.
