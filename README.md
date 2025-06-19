@@ -84,6 +84,7 @@ plt.show()
 
 ### Results
 ![Visualization of Top Skills](3_Project/Images/skill_demand_all_data_roles.png)
+
 *Bar chart visualizing the likelihood of skills appearing in the UAE job postings in 2023.*
 
 ### Insights
@@ -115,6 +116,7 @@ plt.show()
 ### Results
 
 ![Trending Top Skills for Data Analysts in the UAE](3_Project/Images/skill_trend_DA.png)
+
 *Line chart visualizing the trending top skills for data analysts in the UAE in 2023.*
 
 ### Insights 
@@ -139,6 +141,7 @@ plt.show()
 ### Results
 
 ![Salary Distributions of Data Jobs in the UAE](3_Project/Images/salary_distributions.png)
+
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Insights
@@ -161,6 +164,7 @@ sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1], hue='
 
 ### Results
 ![Highest Paid and Most In-Demand Skills for Data Analysts in the UAE](3_Project/Images/highes_paid_and_most_demanded_skills_DA.png)
+
 *Two separate bar graphs visualizing the highest-paid and most in-demand skills for data analysts in the UAE.*
 
 ### Insights
