@@ -83,7 +83,7 @@ plt.show()
 ```
 
 ### Results
-![Visualization of Top Skills for Data Nerds](3_Project\Images\skill_demand_all_data_roles.png)
+![Visualization of Top Skills](3_Project\Images\skill_demand_all_data_roles.png)
 *Bar chart visualizing the likelihood of skills appearing in the UAE job postings in 2023.*
 
 ### Insights
@@ -138,7 +138,7 @@ plt.show()
 
 ### Results
 
-![Salary Distributions of Data Jobs in the UAE](3_Project\Images\salary_distributions.png)
+![Salary Distributions of Data Jobs in the UAE]
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Insights
@@ -248,3 +248,5 @@ This project was not without its challenges, but it provided good learning oppor
 # Conclusion
 
 This exploration into the data analyst job market was incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insights I gained enhanced my understanding and also provided actionable guidance which helped advance my career in data analytics. As the market continues to change, ongoing analysis will be essential to stay ahead in data analytics. This project wass a good foundation for future explorations and underscored the importance of continuous learning and adaptation in the data field.
+
+[def]: 3_Project\Images\salary_distributions.png
