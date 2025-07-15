@@ -50,7 +50,7 @@ df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
 ```
 
-## Filter US Jobs
+## Filter UAE Jobs
 
 To focus my analysis on the UAE job market, I apply filters to the dataset, narrowing down to roles based in the United Arab Emirates only.
 
